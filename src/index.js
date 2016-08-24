@@ -68,3 +68,6 @@ nexus.collectData = function(collector_id, matrix_id, robot_id, data, cb){
 
 const architect = {createActionFactory, createBehavior};
 export default {architect, nexus};
+
+//TODO 1. 机器人系统建立后,页面的采集器初始化,要拉取采集器信息
+//TODO 2、检查model合法的正则
